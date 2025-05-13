@@ -19,12 +19,14 @@ public class Ingresar{
         String usuarioIngresado = obtenerCadena("Ingresa tu usuario");
         String contrasenaIngresada = obtenerCadena("Ingresa tu contraseña");
 
-        if ((nombreUsuario.equals(usuarioIngresado)) && (contrasenaIngresada.equals(contrasenaUsuario))){
+        if ((nombreUsuario.equals(usuarioIngresado)) && (contrasenaIngresada.equals(contrasenaUsuario))){//equals es para hacer la comparacion 
             System.out.println("Bienvenido ha iniciado sesion correctamente ");
 
         }else{
             System.out.println("Usuario o contraseña incorrecto");
         }
+        
+        System.out.println("Derechos reservados");
 
     }
 }
